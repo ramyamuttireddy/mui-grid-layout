@@ -70,7 +70,7 @@ export default function App() {
         <Grid container spacing={2} sx={{ marginTop: '40px' }}>
 
           {/*below 1 Card */}
-          <Grid size={{ xs: 12, md: 6 }} >
+          <Grid size={{ xs: 12, md: 7 }} >
             <Paper sx={{ padding: '40px', display: "flex", flexDirection: "column", gap: "20px" }}>
               <Button variant="text">Text</Button>
               <Button variant="contained">Contained</Button>
@@ -85,7 +85,7 @@ export default function App() {
           </Grid>
 
           {/*below  2 Card */}
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid size={{ xs: 12, md: 5 }}>
             <Paper sx={{ padding: '40px' }}>
               <List sx={{ padding: '10px' }}>
                 <ListItem>
@@ -108,7 +108,7 @@ export default function App() {
           </Grid>
 
           {/*below 3 card */}
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid size={{ xs: 12, md: 7 }}>
             <Paper sx={{ padding: '40px' }}>
               <Card sx={{ boxShadow: 'none', borderBottom: '1px solid gray' }}>
                 <CardHeader
@@ -165,7 +165,7 @@ export default function App() {
           </Grid>
 
           {/*below 4 Card */}
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid size={{ xs: 12, md: 5 }}>
             <Paper sx={{ padding: '40px' }}>
               <Accordion>
                 <AccordionSummary
